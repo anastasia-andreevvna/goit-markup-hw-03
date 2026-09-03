@@ -15,7 +15,7 @@
 
 .team > .container > ul {
     display: flex;
-    gap: 32px;
+    gap: 24px;
 }
 
 .team > .container > ul > li {
