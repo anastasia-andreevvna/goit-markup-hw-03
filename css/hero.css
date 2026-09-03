@@ -1,16 +1,30 @@
 .hero {
     background-color: #2E2F42;
+    padding: 188px 0;
 }
 
 .hero-title {
+    max-width: 496px;
+    margin: 0 auto 48px;
+
+    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #ffffff;
     text-align: center;
+    margin-bottom: 48px;
 }
 
 .hero-button {
+    display:block;
+    min-width: 196px;
+    margin: 0 auto;
+    padding: 16px 32px;
+
+    border: none;
+    border-radius: 4px;
+    
     background-color: #4d5ae5;
     color: #ffffff;
     font-weight: 500;
@@ -23,3 +37,4 @@
 .hero-button:focus {
     background-color: #404bbf;
 }
+
