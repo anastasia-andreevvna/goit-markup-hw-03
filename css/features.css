@@ -1,9 +1,9 @@
-.features > .container > ul {
+.features-list {
     display: flex;
     gap: 24px;
 }
 
-.features > .container > ul > li {
+.features-item {
     width: calc((100% - 72px) / 4);
 }
 
